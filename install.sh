@@ -32,7 +32,7 @@ aliases=(
 'alias git-cp-branch-name="git branch --show-current | xclip -selection clipboard"'
 'alias git-clear-local-branches="bash ~/.bash_aliases.sh git_clear_local_branches"'
 '# System'
-'alias cd-bash-aliases="cd /var/www/bash_aliases"'
+'alias cd-bash-aliases="cd /var/www/bash-aliases"'
 'alias cd-myapp="cd /var/www/myapp"'
 'alias system-swap-clear="sudo swapoff -a; sudo swapon -a"'
 'alias system-upgrade="sudo apt update && apt list --upgradable && sudo apt upgrade"'
