@@ -49,10 +49,6 @@ git_clear_local_branches() {
 }
 
 
-testA() {
-  echo 'test A - ok'
-}
-
 #################################################################
 # Verify that the command exists and is a function to execute it
 #################################################################
