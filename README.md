@@ -45,7 +45,7 @@ Below is a table of the aliases that will be generated, categorized by context.
 | System   | `system-clear`                 | `system-clear`                      |
 | PHP      | `phpstan`                      | `phpstan`                           |
 | PHP      | `phpunit`                      | `phpunit`                           |
-| Laravel  | `sail`                         | `sail`                              |
+| Laravel  | `sail`                         | `sail sail up -d`                   |
 | Laravel  | `sail-rebuild`                 | `sail-rebuild`                      |
 | Laravel  | `pa`                           | `pa migrate --force`                |
 | Laravel  | `laravel-version`              | `laravel-version`                   |
