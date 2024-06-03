@@ -65,4 +65,14 @@ Below is a table of the aliases that will be generated, categorized by context.
 - Ensure you have `xclip` installed for the `git-cp-branch-name` alias to work.
 - Modify the IP addresses in the SSH aliases as needed for your environment.
 
+## Suggestions
+
+Also consider using:
+- [ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Oh My Zsh  - Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+
+> In Linux environments, see instructions for [installation here](https://github.com/jrfernandodasilva/debian-12?tab=readme-ov-file#13-zsh-and-oh-my-zsh)
+
+
 Happy coding!
