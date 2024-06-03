@@ -1,4 +1,4 @@
-# Bash Aliases and Functions
+# Bash Aliases
 
 This repository provides a set of useful bash aliases and functions to streamline your workflow, particularly for git, system management, and common tasks in PHP and Laravel development.
 
