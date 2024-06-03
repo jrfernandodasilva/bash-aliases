@@ -47,7 +47,7 @@ Below is a table of the aliases that will be generated, categorized by context.
 | PHP      | `phpunit`                      | `phpunit`                           |
 | Laravel  | `sail`                         | `sail`                              |
 | Laravel  | `sail-rebuild`                 | `sail-rebuild`                      |
-| Laravel  | `pa`                           | `pa`                                |
+| Laravel  | `pa`                           | `pa migrate --force`                |
 | Laravel  | `laravel-version`              | `laravel-version`                   |
 | Docker   | `acw`                          | `acw <container_name> sh`           |
 | Docker   | `acn`                          | `acn <container_name> sh`           |
