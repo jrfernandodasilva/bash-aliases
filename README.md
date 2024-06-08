@@ -30,34 +30,35 @@ Follow these steps to install the aliases and functions:
 
 Below is a table of the aliases that will be generated, categorized by context.
 
-| Context  | Alias                          | Example                             |
-|----------|--------------------------------|-------------------------------------|
-| Git      | `git-reset-develop-from`       | `git-reset-develop-from master`     |
-| Git      | `git-reset-homolog-from`       | `git-reset-homolog-from main`       |
-| Git      | `git-reset-dev-branches-from`  | `git-reset-dev-branches-from main`  |
-| Git      | `git-pull`                     | `git-pull`                          |
-| Git      | `git-cp-branch-name`           | `git-cp-branch-name`                |
-| Git      | `git-clear-local-branches`     | `git-clear-local-branches`          |
-| System   | `cd-bash-aliases`              | `cd-bash-aliases`                   |
-| System   | `cd-myapp`                     | `cd-myapp`                          |
-| System   | `system-swap-clear`            | `system-swap-clear`                 |
-| System   | `system-upgrade`               | `system-upgrade`                    |
-| System   | `system-clear`                 | `system-clear`                      |
-| PHP      | `phpstan`                      | `phpstan`                           |
-| PHP      | `phpunit`                      | `phpunit`                           |
-| Laravel  | `sail`                         | `sail sail up -d`                   |
-| Laravel  | `sail-rebuild`                 | `sail-rebuild`                      |
-| Laravel  | `pa`                           | `pa migrate --force`                |
-| Laravel  | `laravel-version`              | `laravel-version`                   |
-| Docker   | `acw`                          | `acw <container_name> sh`           |
-| Docker   | `acn`                          | `acn <container_name> sh`           |
-| Docker   | `acr`                          | `acr <container_name> sh`           |
-| SSH      | `ssh-bash-aliases-sandbox`     | `ssh-bash-aliases-sandbox`          |
-| SSH      | `ssh-bash-aliases-staging`     | `ssh-bash-aliases-staging`          |
-| SSH      | `ssh-bash-aliases-production`  | `ssh-bash-aliases-production`       |
-| SSH      | `ssh-app-sandbox`              | `ssh-app-sandbox`                   |
-| SSH      | `ssh-app-api-staging`          | `ssh-app-api-staging`               |
-| SSH      | `ssh-app-api-production`       | `ssh-app-api-production`            |
+| Context  | Alias Usage                         | Alias Command                                                        |
+|----------|-------------------------------------|----------------------------------------------------------------------|
+| Git      | `git-reset-develop-from` master     | **bash ~/.bash_aliases.sh git_reset_branch_from_base "$1" develop**  |
+| Git      | `git-reset-homolog-from` main       | **bash ~/.bash_aliases.sh git_reset_branch_from_base "$1" homolog**  |
+| Git      | `git-reset-dev-branches-from` main  | **git-reset-develop-from "$1" && git-reset-homolog-from "$1"**       |
+| Git      | `git-pull`                          | **git fetch && git pull**                                            |
+| Git      | `git-cp-branch-name`                | **git branch --show-current \| xclip -selection clipboard**          |
+| Git      | `git-clear-local-branches`          | **bash ~/.bash_aliases.sh git_clear_local_branches**                 |
+| System   | `cd-bash-aliases`                   | **cd /var/www/bash-aliases**                                         |
+| System   | `cd-myapp`                          | **cd /var/www/myapp**                                                |
+| System   | `cd-go`                             | **cd $HOME/go**                                                      |
+| System   | `system-swap-clear`                 | **sudo swapoff -a; sudo swapon -a**                                  |
+| System   | `system-upgrade`                    | **sudo apt update && apt list --upgradable && sudo apt upgrade**     |
+| System   | `system-clear`                      | **sudo apt clean && sudo apt autoclean && sudo apt autoremove**      |
+| PHP      | `phpstan`                           | **./vendor/bin/phpstan**                                             |
+| PHP      | `phpunit`                           | **./vendor/bin/phpunit**                                             |
+| Laravel  | `sail` up -d                        | **./vendor/bin/sail sail up -d**                                     |
+| Laravel  | `sail-rebuild`                      | **sail down && sail build && sail up -d**                            |
+| Laravel  | `pa` migrate --force                | **php artisan**                                                      |
+| Laravel  | `laravel-version`                   | **php artisan --version**                                            |
+| Docker   | `acw` <container_name> sh           | **docker exec -it -u www-data:www-data**                             |
+| Docker   | `acn` <container_name> sh           | **docker exec -it -u node:node**                                     |
+| Docker   | `acr` <container_name> sh           | **docker exec -it -u root:root**                                     |
+| SSH      | `ssh-bash-aliases-sandbox`          | **ssh 71.15.15.21**                                                  |
+| SSH      | `ssh-bash-aliases-staging`          | **ssh 71.15.15.25**                                                  |
+| SSH      | `ssh-bash-aliases-production`       | **ssh 71.15.15.32**                                                  |
+| SSH      | `ssh-app-sandbox`                   | **ssh 71.15.15.23**                                                  |
+| SSH      | `ssh-app-api-staging`               | **ssh 71.15.15.26**                                                  |
+| SSH      | `ssh-app-api-production`            | **ssh 71.15.15.30**                                                  |
 
 
 ## Notes

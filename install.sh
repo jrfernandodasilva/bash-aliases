@@ -34,6 +34,7 @@ aliases=(
 '# System'
 'alias cd-bash-aliases="cd /var/www/bash-aliases"'
 'alias cd-myapp="cd /var/www/myapp"'
+'alias cd-go="cd $HOME/go"'
 'alias system-swap-clear="sudo swapoff -a; sudo swapon -a"'
 'alias system-upgrade="sudo apt update && apt list --upgradable && sudo apt upgrade"'
 'alias system-clear="sudo apt clean && sudo apt autoclean && sudo apt autoremove"'
