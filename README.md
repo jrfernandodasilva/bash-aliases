@@ -1,5 +1,17 @@
 # Bash Aliases
 
+[![License](https://img.shields.io/github/license/jrfernandodasilva/bash-aliases.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Unix](https://img.shields.io/badge/Unix-333333?style=flat&logo=unix&logoColor=white)](https://en.wikipedia.org/wiki/Unix)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=white)](https://www.linux.org/)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://www.apple.com/macos/)
+[![Shell Aliases](https://img.shields.io/badge/Shell-Aliases-blue?style=flat)](https://github.com/seu-usuario/seu-repositorio)
+[![Downloads](https://img.shields.io/github/downloads/jrfernandodasilva/golang-roadmap/total.svg?v1)](https://github.com/jrfernandodasilva/golang-roadmap/releases)
+[![Contributors](https://img.shields.io/github/contributors/jrfernandodasilva/bash-aliases.svg)](https://github.com/jrfernandodasilva/bash-aliases/graphs/contributors)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://github.com/jrfernandodasilva/bash-aliases/wiki)
+[![Last Update](https://img.shields.io/github/last-commit/jrfernandodasilva/bash-aliases.svg)](https://github.com/jrfernandodasilva/bash-aliases/commits/main)
+
+
 This repository provides a set of useful bash aliases and functions to streamline your workflow, particularly for git, system management, and common tasks in PHP and Laravel development.
 
 ## Installation
