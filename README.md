@@ -1,6 +1,6 @@
 # Bash Aliases
 
-[![License](https://img.shields.io/github/license/jrfernandodasilva/bash-aliases.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/jrfernandodasilva/bash-aliases.svg?v1)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Unix](https://img.shields.io/badge/Unix-333333?style=flat&logo=unix&logoColor=white)](https://en.wikipedia.org/wiki/Unix)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=white)](https://www.linux.org/)
